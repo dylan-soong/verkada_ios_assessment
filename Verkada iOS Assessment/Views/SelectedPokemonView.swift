@@ -72,6 +72,7 @@ struct SelectedPokemonView: View {
 /*
 Additional UI feature (used LLM for this)
  
+Changes background of pokemon based on its color palette
 Calculates the "average color" of a UIImage.
 Ignores transparent pixels and pixels close to black to make resulting color more vibrant
 */
