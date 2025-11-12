@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FC5C67A72EC432AA0074370A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC5C67A52EC432980074370A /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FC5C676B2EBC30E10074370A /* Verkada iOS Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verkada iOS Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5C67A52EC432980074370A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		FC5C67622EBC30E10074370A = {
 			isa = PBXGroup;
 			children = (
+				FC5C67A52EC432980074370A /* README.md */,
 				FC5C676D2EBC30E10074370A /* Verkada iOS Assessment */,
 				FC5C676C2EBC30E10074370A /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5C67A72EC432AA0074370A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
